@@ -1,11 +1,14 @@
-import { Flex } from "@chakra-ui/layout";
+import { Box, Flex, Grid } from "@chakra-ui/layout";
 import Navbar from "../components/Navbar";
 
 const Index: React.FC = ({}) => {
   return (
-    <Flex height="100vh">
+    // <Box h="550px" w="100%" bgColor="red.light">
+    //   <Navbar />
+    // </Box>
+    <Grid bgColor="red.light">
       <Navbar />
-    </Flex>
+    </Grid>
   );
 };
 
